@@ -7,6 +7,7 @@
 	<!-- Stylesheets -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/custom-style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Open+Sans:wght@300;400;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -16,79 +17,7 @@
 
 	<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
 
-	<style>
-		/* Logo size constraints */
-		.main-header .header-upper .logo-box .logo img { max-width: 170px; height: auto; }
-		.sticky-header .logo img                        { max-width: 130px; height: auto; }
-		.mobile-menu .nav-logo img                      { max-width: 150px; height: auto; }
-		.main-footer .logo-widget .logo img             { max-width: 160px; height: auto; }
-
-		/* Clip image-layer to counter-section bounds */
-		.counter-section { overflow: hidden; padding-bottom: 80px; }
-
-		/* Remove horizontal divider line that cuts through practice cards */
-		.practice-section .inner-container:after { display: none; }
-
-		/* Welcome section h2 — prevent uppercase long text from overflowing */
-		.welcome-section .content-column .inner-column .sec-title h2 {
-			font-size: 26px;
-			overflow-wrap: break-word;
-			word-break: break-word;
-		}
-
-		/* Fluid section left column — reduce font sizes and padding for tighter layout */
-		.fluid-section-one .image-column .inner-column {
-			padding: 60px 50px 50px 15px;
-		}
-		.fluid-section-one .image-column .inner-column .sec-title h2 {
-			font-size: 26px;
-		}
-		.fluid-section-one .image-column .inner-column .sec-title .text {
-			font-size: 14px;
-			margin-top: 14px;
-		}
-		.fluid-section-one .accordion-box .block .acc-btn {
-			font-size: 15px;
-			line-height: 26px;
-			padding: 12px 44px 9px 0px;
-		}
-		.fluid-section-one .accordion-box .block .content {
-			font-size: 14px;
-			padding-bottom: 16px;
-		}
-		.fluid-section-one .accordion-box .block {
-			margin-bottom: 12px;
-		}
-
-		/* Fluid section — equalize column heights via flexbox, center form vertically */
-		.fluid-section-one .outer-container {
-			display: flex !important;
-			align-items: stretch;
-		}
-		.fluid-section-one .image-column,
-		.fluid-section-one .content-column {
-			float: none !important;
-			flex: 0 0 50%;
-		}
-		.fluid-section-one .content-column {
-			display: flex;
-			align-items: center;
-			background-color: #f9f9f9;
-		}
-		.fluid-section-one .content-column .inner-column {
-			width: 100%;
-			padding: 50px 40px 50px 60px;
-		}
-
-		/* Team section — compact the empty section so it reads as a content band */
-		.team-section {
-			padding: 65px 0;
-			background-color: #f9f9f9;
-		}
-		.team-section .auto-container {
-			max-width: 860px;
-		}
-	</style>
+	
 </head>
 
 <body class="hidden-bar-wrapper">
@@ -178,11 +107,11 @@
 
 		<!-- Banner Section -->
 		<section class="banner-section">
-			<ul class="social-nav">
+			<!-- <ul class="social-nav">
 				<li class="facebook"><a href="#"><span class="fa fa-facebook-f"></span></a></li>
 				<li class="twitter"><a href="#"><span class="fa fa-twitter"></span></a></li>
 				<li class="linkedin"><a href="#"><span class="fa fa-linkedin"></span></a></li>
-			</ul>
+			</ul> -->
 			<div class="main-slider-carousel owl-carousel owl-theme">
 
 				<div class="slide" style="background-image: url(images/main-slider/image-1.jpg)">
@@ -190,7 +119,7 @@
 						<div class="content-column">
 							<div class="inner-column">
 								<h1>Grow Your <br> Legal Practice</h1>
-								<div class="text">Join the world's fastest-growing online legal marketplace</div>
+								<div class="text">Join the World's Fastest-Growing Community of Legal Professionals</div>
 								<div class="btns-box">
 									<a href="#" class="theme-btn btn-style-one"><span class="txt">Apply As An Attorney <i class="arrow flaticon-right"></i></span></a>
 								</div>
